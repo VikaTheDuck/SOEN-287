@@ -1,0 +1,16 @@
+.special_box {
+    background-color: lightgoldenrodyellow;
+    padding: 25px;
+    border: 5px solid red;
+    margin: 100px;
+}
+
+dt {
+    font-weight: bolder;
+}
+
+/* uncomment either the display or visibility declaration to enable the hidden class */
+.hidden {
+    /*display: none;*/
+    /*visibility: hidden;*/
+}

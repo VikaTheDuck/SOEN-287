@@ -1,0 +1,7 @@
+id,title,slides,html,notebook
+0,Course Outline,00_outline.slides.html,00_outline.html,00_outline.ipynb
+1,HTML,01_html.slides.html,01_html.html,01_html.ipynb
+2,CSS,02_css.slides.html,02_css.html,02_css.ipynb
+3,Python,03_python.slides.html,03_python.html,03_python.ipynb
+4,Flask,04_flask.slides.html,04_flask.html,04_flask.ipynb
+5,JavaScript,05_js.slides.html,05_js.html,05_js.ipynb

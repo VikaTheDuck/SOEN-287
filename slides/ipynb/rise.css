@@ -1,0 +1,40 @@
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+    font-size: 100%;
+}
+
+.rise-enabled .rendered_html table.dataframe {
+    font-size: 100%;
+}
+
+.rise-enabled .reveal pre {
+    font-size: 160%;
+    line-height: 160%;
+}
+
+.rise-enabled .unrendered {
+    font-size: 100%;
+    line-height: 160%;
+}
+
+.rise-enabled .rendered_html code {
+    background-color: #eaeafa;/*#ffeeee;*/
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.rise-enabled .rendered_html pre {
+    background-color: transparent;
+}
+.reveal pre code {
+    max-height: 90vh;
+    max-width: 90%;
+    overflow: scroll;
+}
+/*.rise-enabled .rendered_html .text_cell {*/
+/*    font-size: 160%;*/
+/*}*/
+
+div#notebook {
+    line-height: inherit;
+}

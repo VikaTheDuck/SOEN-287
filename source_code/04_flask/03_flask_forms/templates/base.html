@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% block head %}
+        <title>{% block title %}SOEN287 Web Programming{% endblock %}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <style>body {
+            padding-top: 50px
+        }</style>
+    {% endblock %}
+</head>
+<body>
+
+{% block navbar %}
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="/">SOEN287</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/slides">Slides</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/documents">Course Documents</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/examples1">Examples 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/examples2">Examples 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/assignments">Assignments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+{% endblock %}
+<br>
+
+{# The following 2 macros are based on the code from http://www.codetodd.com/flask-bootstrap-and-bootstrap-4-0/ #}
+{% macro form_group(field) -%}
+    <div class="form-group row required">
+        {{ field.label(class_="col-sm-2 col-form-label") }}
+        {% if field.type in ['MultiCheckboxField', 'RadioField'] %}
+            {% if field.errors %}
+                <div class="form-control is-invalid">
+            {% else %}
+                <div class="form-control col-sm-8">
+            {% endif %}
+            {% for choice in field %}
+                <div class="form-check form-check-inline">
+                    {{ choice(class_="form-check-input") }}
+                    {{ choice.label(class_="form-check-label") }}
+                </div>
+            {% endfor %}
+            </div>
+        {% else %}
+            {% if field.errors %}
+                {{ field(class_="form-control is-invalid") }}
+            {% else %}
+                {{ field(class_="form-control col-sm-8") }}
+            {% endif %}
+        {% endif %}
+        {% if field.errors %}
+            {%  for error in field.errors %}
+                <div class="invalid-feedback">
+                    {{ error }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endmacro %}
+
+{% macro quick_form(form, action) -%}
+    <form action="{{ action }}" class="form" method="POST">
+        {% for field in form %}
+            {% if field.type in ('HiddenField', 'CSRFTokenField') %}
+                {{ field() }}
+            {% elif field.type == 'SubmitField' %}
+                {{ field(class_="btn btn-primary") }}
+            {% else %}
+                {{ form_group(field) }}
+            {% endif %}
+        {% endfor %}
+    </form>
+{% endmacro %}
+
+{% block content %}
+    <div class="container">
+        <h1>Welcome to the <em>SOEN287 Web Programming</em> course web site!</h1>
+        <p>This is a course taught at <a href="https://concordia.ca">Concordia University</a> in Montreal, Canada.</p>
+        <p>Follow the links in the navigation bar for more details.</p>
+        <p>Please note that the source code for this web site, written in Python using the Flask framework, is used
+            as examples in the course. That's why some pages are not really necessary or contain multiple formats for
+            the same data, such as the <a href="/slides">Slides</a> page.</p>
+    </div>
+{% endblock %}
+
+</body>
+</html>
+
+

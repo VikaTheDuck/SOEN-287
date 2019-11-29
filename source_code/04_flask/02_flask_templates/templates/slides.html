@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{{ super() }} - Slides{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Slides</h1>
+        <h3>Plain HTML list</h3>
+        <ol>
+            {% for slide in slide_list %}
+                <li><a href="{{ slide[1] }}">{{ slide[0] }}</a></li>
+            {% endfor %}
+
+        </ol>
+        <h3>Bootstrap List Group</h3>
+        <div class="list-group">
+            {% for slide in slide_list %}
+                <a href="{{ slide[1] }}" class="list-group-item list-group-item-action">{{ slide[0] }}</a>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %} <!-- content -->
