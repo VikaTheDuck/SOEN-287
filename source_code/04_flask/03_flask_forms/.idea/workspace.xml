@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902dc4bb-048c-4016-bbea-d931e7e94fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../slides/html/04_flask.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../slides/html/04_flask.slides.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../slides/html/images" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04_flask_sessions/data/common_passwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04_flask_sessions/templates/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../slides/00_outline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slides/00_outline.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../slides/04_flask.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slides/04_flask.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../slides/html/00_outline.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slides/html/00_outline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../slides/html/00_outline.slides.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slides/html/00_outline.slides.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../slides/rise.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../slides/rise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/03_flask_forms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/03_flask_forms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_flask_sessions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04_flask_sessions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_flask_sessions/01_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../04_flask_sessions/01_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_flask_sessions/02_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../04_flask_sessions/02_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_flask_sessions/03_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../04_flask_sessions/03_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_flask_sessions/04_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../04_flask_sessions/04_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_flask_sessions/05_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../04_flask_sessions/05_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_flask_sessions/data/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../04_flask_sessions/data/users.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_flask_sessions/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../04_flask_sessions/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_flask_sessions/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../04_flask_sessions/templates/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_javascript/10_stacking2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_javascript/10_stacking2.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,14 +39,19 @@
   </component>
   <component name="ProjectId" id="1OejxbaUlJvOq3RNFwZa6phZdyE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,18 +63,6 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Flask server.Flask (03_app.py)">
     <configuration name="03_flask_forms" type="Python.FlaskServer">
@@ -181,6 +159,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -199,6 +189,8 @@
       <workItem from="1564368547640" duration="1201000" />
       <workItem from="1565636548598" duration="58000" />
       <workItem from="1565636663215" duration="1197000" />
+      <workItem from="1575580484788" duration="716000" />
+      <workItem from="1575581213962" duration="2914000" />
     </task>
     <servers />
   </component>
@@ -227,11 +219,21 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575581375641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1575581375641" />
+    <state x="164" y="0" key="SettingsEditor" timestamp="1575591005103">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="164" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575591005103" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/03_flask_forms$Flask__01_app_py___1_.coverage" NAME="Flask (01_app.py) Coverage Results" MODIFIED="1562708097678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/03_flask_forms$Flask__01_app_py_.coverage" NAME="Flask (01_app.py) Coverage Results" MODIFIED="1563995247811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/03_flask_forms$Flask__02_app_py_.coverage" NAME="Flask (02_app.py) Coverage Results" MODIFIED="1564011237893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/03_flask_forms$Flask__app_py_.coverage" NAME="Flask (01_app.py) Coverage Results" MODIFIED="1562708525702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/03_flask_forms$Flask__01_app_py_.coverage" NAME="Flask (01_app.py) Coverage Results" MODIFIED="1563995247811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/03_flask_forms$Flask__03_app_py_.coverage" NAME="Flask (03_app.py) Coverage Results" MODIFIED="1564345621637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/03_flask_forms$Flask__01_app_py___1_.coverage" NAME="Flask (01_app.py) Coverage Results" MODIFIED="1562708097678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/03_flask_forms$Flask__03_app_py_.coverage" NAME="Flask (03_app.py) Coverage Results" MODIFIED="1575581220856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
