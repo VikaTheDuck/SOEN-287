@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902dc4bb-048c-4016-bbea-d931e7e94fc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/03_flask_forms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/03_flask_forms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -190,7 +189,7 @@
       <workItem from="1565636548598" duration="58000" />
       <workItem from="1565636663215" duration="1197000" />
       <workItem from="1575580484788" duration="716000" />
-      <workItem from="1575581213962" duration="2914000" />
+      <workItem from="1575581213962" duration="2918000" />
     </task>
     <servers />
   </component>
@@ -224,6 +223,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1575581375641" />
+    <state width="1481" height="199" key="GridCell.Tab.0.bottom" timestamp="1575761512478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="199" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-130.1920.1040@0.0.1536.824" timestamp="1575761512478" />
+    <state width="1481" height="199" key="GridCell.Tab.0.center" timestamp="1575761512478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="199" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-130.1920.1040@0.0.1536.824" timestamp="1575761512478" />
+    <state width="1481" height="199" key="GridCell.Tab.0.left" timestamp="1575761512477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="199" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-130.1920.1040@0.0.1536.824" timestamp="1575761512477" />
+    <state width="1481" height="199" key="GridCell.Tab.0.right" timestamp="1575761512478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="199" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-130.1920.1040@0.0.1536.824" timestamp="1575761512478" />
     <state x="164" y="0" key="SettingsEditor" timestamp="1575591005103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
